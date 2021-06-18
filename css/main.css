@@ -1,0 +1,799 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/../fonts/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/../fonts/Montserrat-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/../fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/../fonts/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/../fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+.icon-online-shop:before {
+  font-family: 'icomoon';
+  content: "\e90f";
+}
+
+.icon-france:before {
+  font-family: 'icomoon';
+  content: "\e932";
+}
+
+.icon-car-checkmark:before {
+  font-family: 'icomoon';
+  content: "\e90e";
+}
+
+.icon-search:before {
+  font-family: 'icomoon';
+  content: "\e936";
+}
+
+.icon-thumb-up:before {
+  font-family: 'icomoon';
+  content: "\e92f";
+}
+
+.icon-air-conditioned:before {
+  font-family: 'icomoon';
+  content: "\e92d";
+}
+
+.icon-map-marker-alt2:before {
+  font-family: 'icomoon';
+  content: "\e92c";
+}
+
+.icon-car-park-assistant:before {
+  font-family: 'icomoon';
+  content: "\e92b";
+}
+
+.icon-bluetooth:before {
+  font-family: 'icomoon';
+  content: "\e929";
+}
+
+.icon-speed-limiter:before {
+  font-family: 'icomoon';
+  content: "\e928";
+}
+
+.icon-rearview-radar:before {
+  font-family: 'icomoon';
+  content: "\e927";
+}
+
+.icon-rearview-camera:before {
+  font-family: 'icomoon';
+  content: "\e926";
+}
+
+.icon-wheel:before {
+  font-family: 'icomoon';
+  content: "\e925";
+}
+
+.icon-full-lights:before {
+  font-family: 'icomoon';
+  content: "\e91c";
+}
+
+.icon-leather:before {
+  font-family: 'icomoon';
+  content: "\e923";
+}
+
+.icon-heated-seat:before {
+  font-family: 'icomoon';
+  content: "\e92e";
+}
+
+.icon-info:before {
+  font-family: 'icomoon';
+  content: "\e931";
+}
+
+.icon-leather:before {
+  font-family: 'icomoon';
+  content: "\e923";
+}
+
+.icon-logo-bymycar:before {
+  font-family: 'icomoon';
+  content: "\e933";
+}
+
+.icon-map-marker-alt:before {
+  font-family: 'icomoon';
+  content: "\e918";
+}
+
+.icon-user-alt:before {
+  font-family: 'icomoon';
+  content: "\e919";
+}
+
+.icon-chevron-right:before {
+  font-family: 'icomoon';
+  content: "\e910";
+}
+
+.icon-chevron-left:before {
+  font-family: 'icomoon';
+  content: "\e912";
+}
+
+.icon-sportive:before {
+  font-family: 'icomoon';
+  content: "\e96f";
+}
+
+.icon-suv:before {
+  font-family: 'icomoon';
+  content: "\e970";
+}
+
+.icon-revision:before {
+  font-family: 'icomoon';
+  content: "\e960";
+}
+
+.icon-map-marker-alt2:before {
+  font-family: 'icomoon';
+  content: "\e92c";
+}
+
+.icon-hamburger:before {
+  font-family: 'icomoon';
+  content: "\e934";
+}
+
+.icon-plus:before {
+  font-family: 'icomoon';
+  content: "\e915";
+}
+
+.icon-minus:before {
+  font-family: 'icomoon';
+  content: "\e937";
+}
+
+.t-light {
+  font-weight: 300;
+}
+
+.t-regular {
+  font-weight: 400;
+}
+
+.t-semibold {
+  font-weight: 600;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.site__title {
+  color: black;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.site__subtitle {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.site__description {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.type__title {
+  color: #232323;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.lock {
+  overflow: hidden;
+}
+
+.header {
+  background-color: #1f1f1f;
+}
+
+.header__logo {
+  color: white;
+  font-size: 32px;
+}
+
+.header-contact {
+  color: white;
+  border: 1px solid #ba9856;
+  border-radius: 20px;
+}
+
+.header-contact:hover .header-contact__text {
+  background-color: #e0b662;
+}
+
+.header-contact__text {
+  background-color: #ba9856;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-contact__text span {
+  font-size: 10px;
+}
+
+.header-contact__text .icon-chevron-right {
+  color: #ba9856;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.header-contact__number {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav__link {
+  color: white;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.burger {
+  transition: all 0.3s ease-in-out;
+}
+
+.burger a {
+  transition: all 0.3s ease-in-out;
+}
+
+.burger--active a {
+  color: #e0b662;
+}
+
+.hero {
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 50px;
+}
+
+.hero-text {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.hero-sidebar-container {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hero-sidebar__more {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #ba9856;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-sidebar__more:hover {
+  background-color: #e0b662;
+}
+
+.type-container-more {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.type-container:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.type__item input[type="radio"]:checked + label {
+  background-color: #4b4b4b;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.type__item label {
+  color: #232323;
+  font-size: 14px;
+  border: 1px solid rgba(7, 6, 6, 0.2);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.type-container-select select {
+  color: #232323;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.type-container-select label {
+  background-color: white;
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+
+.hero-info__count {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-info__sort span {
+  color: #232323;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.hero-card {
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.hero-card__status {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #4b4b4b;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.hero-card__info {
+  color: #232323;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+.hero-card-text {
+  color: #232323;
+  font-size: 14px;
+}
+
+.hero-card__title {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-card__title span {
+  text-transform: uppercase;
+}
+
+.car__fuel {
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.car__class {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.car-spec__title {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.car-spec__title::before {
+  background-color: #ba9856;
+  border-radius: 100%;
+}
+
+.car-spec__count {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.car-info::before,
+.car-info::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.car-info__line {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.car-info__item {
+  color: #232323;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.car-advantages__item span {
+  color: #ba9856;
+  font-size: 20px;
+}
+
+.car-advantages__item:nth-child(9)::before {
+  color: #ba9856;
+}
+
+.car-advantages__text {
+  background-color: #ba9856;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.car-advantages__text span {
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.car-advantages__text span:first-child {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.car-price__line {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.car-price__item {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.car-price__item .icon-info {
+  color: #232323;
+  font-size: 20px;
+}
+
+.car-price__item .cost__month {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.car-price__item .cost__full {
+  color: #232323;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.car-price__discount {
+  color: #ba9856;
+  font-size: 14px;
+}
+
+.car-price__discount .icon-info {
+  color: #ba9856;
+  font-size: 20px;
+}
+
+.car-price__discount .cost__month {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero-pagination__link {
+  color: rgb(35, 35, 35);
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid rgb(35, 35, 35);
+  border-radius: 5px;
+}
+
+.hero-pagination__link_active {
+  color: #ba9856;
+  border-color: #ba9856;
+}
+
+.hero-pagination-next,
+.hero-pagination-prev {
+  border: none;
+}
+
+.hero-pagination-dots {
+  border: none;
+}
+
+.advantages__link {
+  color: #ba9856;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.advantages__link::after {
+  font-family: 'icomoon';
+  content: "";
+  display: inline-block;
+  margin-left: 10px;
+  color: #ba9856;
+  transition: all 0.3s ease-in-out;
+}
+
+.avantages-card {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.avantages-preview span {
+  font-size: 56px;
+}
+
+.avantages-preview__text {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.avantages__text {
+  background-color: white;
+  color: #232323;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.footer {
+  background-color: #1f1f1f;
+}
+
+.footer__icon {
+  color: white;
+  font-size: 32px;
+}
+
+.footer-list:not(:last-child) {
+  border-right: 1px solid rgb(75, 75, 75);
+}
+
+.footer__title {
+  color: white;
+  font-size: 14;
+  text-transform: uppercase;
+}
+
+.footer-list:nth-child(4) .footer__title {
+  text-transform: none;
+}
+
+.footer__link {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-tab__count {
+  font-family: sans-serif;
+  color: #232323;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1440px) {
+  .nav__link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .car-spec__title {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .site__title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .nav__link-text {
+    color:  rgb(35, 35, 35);
+    font-size: 8px;
+    font-weight: 300;
+  }
+
+  .site__title {
+    font-size: 70px;
+  }
+
+  .mobile-nav-sidebar__trigger {
+    color: #ba9856;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .mobile-nav-sidebar__trigger--active {
+    background-color: #4b4b4b;
+  }
+
+  .nav__link {
+    color: #232323;
+    font-size: 8px;
+    font-weight: 400;
+  }
+
+  .nav__link .icon-sportive {
+    font-size: 56px;
+  }
+
+  .nav__link .icon-suv {
+    font-size: 45px;
+  }
+
+  .nav__link .icon-revision {
+    font-size: 24px;
+  }
+
+  .nav__link .icon-map-marker-alt2 {
+    font-size: 20px;
+  }
+
+  .nav__link .icon-hamburger {
+    font-size: 20px;
+  }
+
+  .dropdown {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dropdown__close {
+    color: white;
+    background-color: #1f1f1f;
+    cursor: pointer;
+  }
+
+  .dropdown__close::before,
+  .dropdown__close::after {
+    background-color: white;
+  }
+
+  .dropdown__item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown__link {
+    color: #232323;
+    font-size: 14px;
+  }
+
+  .hero-sidebar {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero-sidebar__button {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ba9856;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .hero-sidebar-container {
+    border-radius: 0;
+  }
+
+  .hero-card__info {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site__title {
+    font-size: 45px;
+  }
+  .footer__title {
+    font-size: 11px;
+  }
+  .footer__link {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-contact__number {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .site__title {
+    font-size: 35px;
+  }
+}
